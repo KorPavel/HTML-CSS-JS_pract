@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <!-- Проект одностраничного сайта "Кофейня" -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 5.4.2</title>
+    <!-- стили -->
+    <link rel="stylesheet" href="./styles/st_5-4-2.css">
+    <!-- шрифт -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- HEADER -->
+    <header class="header">
+        <nav class="menu">
+            <div class="logo">
+                <a href="Task_5-4-2.html" class="logo_text">Coffee House</a>
+            </div>
+            <ul class="menu__ul">
+                <li class="menu__li"><a class="menu__link" href="#home">Home</a></li>
+                <li class="menu__li"><a class="menu__link" href="#story">Story</a></li>
+                <li class="menu__li"><a class="menu__link" href="#blog">Blog</a></li>
+                <li class="menu__li"><a class="menu__link" href="#subscribe">Subscribe</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+    <!-- BLOCK 1 - TAKE YOUR TIME -->
+    <div class="main__block1">
+        <h1 class="main__block1__header">Take your time</h1>
+        <div class="main__block1__stripe"></div>
+    </div>
+    <!-- BLOCK 2 - STORY -->
+    <div id="story" class="main__block2">
+        <div class="block2__title">
+            <h3>Story</h3>
+        </div>
+        <div class="block2__content">
+            <img class="image2" src="https://images.unsplash.com/photo-1507915135761-41a0a222c709?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2071&q=80" alt="cofee_making">
+            <p class="text2">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Aenean varius eget arcu quis cursus. Nunc id tortor imperdiet, vestibulum orci sed,
+                gravida orci. Cras a enim ac elit eleifend euismod. Class aptent taciti sociosqu ad
+                litora torquent per conubia nostra, per inceptos himenaeos. Praesent mattis ultrices est,
+                congue ullamcorper erat bibendum pulvinar. In accumsan dapibus accumsan. Maecenas semper
+                est ut nunc feugiat, vel ultrices ligula commodo. Donec eget pulvinar nunc, eget pharetra risus.</p>
+        </div>
+    </div>
+    <!-- BLOCK 3 - BLOG -->
+    <div id="blog" class="main__block3">
+        <div class="block2__title">
+            <h3>Blog</h3>
+        </div>
+        <div class="block3__content">
+            <div class="card" id="card__1">
+                <div class="card_title">
+                    <h4>Daily Coffee News</h4>
+                </div>
+                <div class="card_image">
+                    <img src="https://images.unsplash.com/photo-1455470956270-4cbb357f7052?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="coffe_1">
+                </div>
+                <div class="card_text">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Aenean varius eget arcu quis cursus. Nunc id tortor imperdiet,
+                        vestibulum orci sed, gravida orci. Cras a enim ac elit eleifend euismod.</p>
+                </div>
+            </div>
+            <div class="card" id="card__2">
+                <div class="card_title">
+                    <h4>Dutch Coffee Chains</h4>
+                </div>
+                <div class="card_image">
+                    <img src="https://images.unsplash.com/photo-1442512595331-e89e73853f31?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80" alt="coffe_1">
+                </div>
+                <div class="card_text">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Aenean varius eget arcu quis cursus. Nunc id tortor imperdiet,
+                        vestibulum orci sed, gravida orci. Cras a enim ac elit eleifend euismod.</p>
+                </div>
+            </div>
+            <div class="card" id="card__3">
+                <div class="card_title">
+                    <h4>Start Up In Minneapolis</h4>
+                </div>
+                <div class="card_image">
+                    <img src="https://images.unsplash.com/photo-1461988091159-192b6df7054f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1172&q=80" alt="coffe_1">
+                </div>
+                <div class="card_text">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Aenean varius eget arcu quis cursus. Nunc id tortor imperdiet,
+                        vestibulum orci sed, gravida orci. Cras a enim ac elit eleifend euismod.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- BLOCK 4 - SUBSCRIBE -->
+    <div id="subscribe" class="main__block4">
+        <h1 class="block4_title">Subscribe</h1>
+        <input class="block4_email" placeholder="enter your email">
+        <button class="block4_submit">Submit</button>
+    </div>
+    </main>
+    <footer>
+        <p>© Copyright 2021</p>
+    </footer>
+</body>
+</html>
