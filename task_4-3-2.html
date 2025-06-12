@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Составление хедера сайта -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task_3.4.2</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .nav{
+            padding: 0 50px;
+            height: 100px;
+            background-color: rgb(6, 39, 99);
+            display: flex;
+            justify-content: space-between; /*раскидываем логотип и меню по разным краям*/
+            align-items: center;            /* вертикальное центрирование */
+        }
+        .menu{
+            list-style: none;   /* Убираем маркеры списка */
+            /* height: 10%;*/
+            display: flex;  /* Располагаем элементы списка в строку */
+            align-items: center; /* вертикальное центрирование */
+        }
+        .logo{
+            color: rgb(52, 179, 253);
+            font-size: 40px;
+            text-decoration: none;
+        }
+        .link{
+            color: #fff;
+            font-size: 20px;
+            text-decoration: none;
+            margin-left: 20px;
+        }
+        .link:hover{
+            color: rgb(114, 173, 240);
+        }
+        .block{
+            margin: 100px auto; /* Отступ от хедера 100px и центрируем горизонтально */
+            padding: 20px;
+            background: rgb(253, 219, 187);
+            width: 800px;   /* x-размер div-контейнера*/
+            display: flex;
+            align-items: center; /* вертикальное центрирование */
+        }
+        .text{
+            margin-left: 30px; /*отодвигаем текст от картинки*/
+        }
+        img{
+            width: 400px; /*меняем размер картинки*/
+        }
+    </style>
+</head>
+<body>
+    <nav class="nav">
+        <a href="#" class="logo">LOGO</a>
+        <ul class="menu">
+            <li class="menu-li"><a href="#" class="link">Home</a></li>
+            <li class="menu-li"><a href="#" class="link">Blog</a></li>
+            <li class="menu-li"><a href="#" class="link">Story</a></li>
+            <li class="menu-li"><a href="#" class="link">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="block">
+        <img src="./pictures/4213-2.png" alt="">
+        <div class="text">
+            <div class="title">Title</div>
+            <div class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, sapiente! At voluptatem culpa repellat quam voluptatum praesentium assumenda ad, iusto corrupti quibusdam debitis.</div>
+        </div>
+    </div>
+</body>
+</html>
