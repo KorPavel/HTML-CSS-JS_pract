@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Использование кнопки checkbox при выборе типа связи -->
+    <meta charset="UTF-8">
+    <title>Task 6.3.7-2</title>
+    <link rel="stylesheet" href="./styles/st_6-3-7-2.css">
+    <style>
+        label{display:inline-block; width: 100px;}
+        div{margin-bottom: 20px;}
+    </style>
+</head>
+<body>
+    <p>Выберите способ связи:</p>
+    <div>
+        <input type="checkbox" id="contactChoice1" name="contact" value="email">
+        <label for="contactChoice1">По email</label>
+    </div>
+    <div>
+        <input type="checkbox" id="contactChoice2" name="contact" value="phone">
+        <label for="contactChoice2">По телефону</label>
+    </div>
+    <div>
+        <input type="checkbox" id="contactChoice3" name="contact" value="mail">
+        <label for="contactChoice3">По почте</label>
+    </div>
+    <button class="btn" onclick="selectList()">Отправить</button>
+    <p>Выбранный способ: <span class="result"></span></p>
+    <script src="./scripts/sc_6-3-7-2.js"></script>
+</body>
+</html>
