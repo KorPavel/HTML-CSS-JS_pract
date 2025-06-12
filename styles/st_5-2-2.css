@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Exo 2', 'Open Sans', sans-serif;
+    font-style: normal;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    padding: 20px;
+    background-color: #15638F;
+}
+
+.card {
+    width: 200px;
+    height: 322px;
+    padding-bottom: 10px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 7px #00000030;
+}
+
+.card__image {
+    width: 200px;
+    height: 142.36px;
+    margin-bottom: 15.59px;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.card__content {
+    padding: 0 16px;
+    /*background: yellow;*/
+}
+
+.card__title {
+    font-size: 13px;
+    margin-bottom: 15.59px;
+    /*background: red;*/
+}
+
+.card__text {
+    height: 72.74px;
+    font-weight: 300;
+    font-size: 10px;
+    padding-right: 10px;
+    line-height: 14px;      /* Межстрочный интервал */
+    margin-bottom: 20px;
+    color: #000;
+    /*background: green;*/
+}
+
+.card__btn {
+    width: 98px;
+    height: 27px;
+    background: #2797B2;
+    border: none;
+    border-radius: 50px;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 14px;
+    text-transform: uppercase;
+    color: #FFF;
+    cursor: pointer;
+}
+
+.card__btn:before {
+    height: 0%;
+    width: 2px;
+}
+
+.card__btn:hover {
+    box-shadow: 4px 4px 6px 0 rgba(255, 255, 255, .5),
+        -4px -4px 6px 0 rgba(116, 125, 136, .5),
+        inset -4px -4px 6px 0 rgba(255, 255, 255, .2),
+        inset 4px 4px 6px 0 rgba(0, 0, 0, .4);
+}
+
+.card__btn:active {
+    transform: translateY(-2px);
+}
