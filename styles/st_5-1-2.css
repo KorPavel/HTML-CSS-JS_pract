@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #05A88D40;    /* 40% - насыщенность*/
+    font-family: Montserrat, sans-serif;
+}
+
+.header {
+    box-sizing: border-box;
+}
+
+.menu__ul {
+    margin-left: 20px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    /*background: red;*/
+}
+
+.menu__link {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 300;
+    color: black;
+    margin-right: 25px;
+}
+
+.menu__logo {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 24px;
+    color: #05A88D;
+    margin: auto;
+    /*background: yellow;*/
+}
+
+.menu__signup, .menu__login {
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 16px;
+    color: #05A88D;
+    padding: 12.5px 21.5px;;
+    margin-right: 50px;
+    border: 1px solid #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu__login:hover, .menu__signup:hover {
+    border: 1px solid #05A88D;
+    border-radius: 3px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    background-color: #FFFFFF;
+    margin: 20px 10px;
+    height: 100px;
+    box-shadow: 0 4px 7px 0 #81818140;  /* Тень элемента */
+}
+
+.menu__link:hover {
+    color: #05A88D;
+}
+
+.user {
+    margin-right: 50px;
+    display: flex;
+    justify-content: center;
+    /*background: green;*/
+}
