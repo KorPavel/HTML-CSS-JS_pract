@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Использование кнопки checkbox при выборе товаров -->
+    <meta charset="UTF-8">
+    <title>Task 6.3.8</title>
+    <link rel="stylesheet" href="./styles/st_6-3-8.css">
+</head>
+<body>
+  <div class="container">
+    <p>Выберите товары:</p>
+    <div class="item">
+      <input type="checkbox" id="choice1" name="food" value="120">
+      <label for="choice1">Пирог с яблоком - 120р.</label>
+    </div>
+    <div class="item">
+      <input type="checkbox" id="choice2" name="food" value="80">
+      <label for="choice2">Шоколадный кекс - 80р.</label>
+    </div>
+    <div class="item">
+      <input type="checkbox" id="choice3" name="food" value="180">
+      <label for="choice3">Чизкейк - 180р.</label>
+    </div>
+    <button class="btn item" onclick="calculate()">Отправить</button>
+    <p>Общая стоимость: <span class="result">0</span>руб.</p>
+  </div>
+  <script src="./scripts/sc_6-3-8.js"></script>
+</body>
+</html>
