@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Применение метода dataset (с кнопкой checkbox)  -->
+    <meta charset="UTF-8">
+    <title>Task 6.3.11-2</title>
+    <style>
+        label{display:inline-block; width: 200px;}
+        div{margin-bottom: 20px;}
+    </style>
+</head>
+<body>
+    <p>Выберите напиток:</p>
+    <div>
+        <input type="checkbox" id="goodsChoice1" name="goods" value="big" data-price="180" data-size="0.4л">
+        <label for="goodsChoice1">Кофе Большой</label>
+    </div>
+    <div>
+        <input type="checkbox" id="goodsChoice2" name="goods" value="middle" data-price="140" data-size="0.3л">
+        <label for="goodsChoice2">Кофе Средний</label>
+    </div>
+    <div>
+        <input type="checkbox" id="goodsChoice3" name="goods" value="small" data-price="100" data-size="0.2л">
+        <label for="goodsChoice3">Кофе Маленький</label>
+    </div>
+    <button id="btn">Данные о покупке</button>
+    <script src="./scripts/sc_6-3-11-2.js"></script>
+</body>
+</html>
