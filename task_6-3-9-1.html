@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Событие change + checkbox -->
+    <meta charset="UTF-8">
+    <title>Task 6.3.9-1</title>
+    <style>
+        label { display: inline-block; width: 180px; }
+        div { margin-bottom: 20px; }
+    </style>
+</head>
+<body>
+  <p>Выберите способ связи:</p>
+  <div>
+    <input type="checkbox" id="contactChoice1" name="contact" value="120">
+    <label for="contactChoice1">По email - 120 руб.</label>
+  </div>
+  <div>
+    <input type="checkbox" id="contactChoice2" name="contact" value="150">
+    <label for="contactChoice2">По телефону - 150 руб.</label>
+  </div>
+  <div>
+    <input type="checkbox" id="contactChoice3" name="contact" value="190">
+    <label for="contactChoice3">По почте - 190 руб.</label>
+  </div>
+  <button class="btn" >Отправить</button>
+  <p>Общая стоимость: <span class="result"></span></p>
+  <p>Наполнение списка: [<span class="list"></span>]</p>
+  <script src="./scripts/sc_6-3-9-1.js"></script>
+</body>
+</html>
